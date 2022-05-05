@@ -1,0 +1,28 @@
+body{
+    background-color: #66EB32;
+}
+section#html{
+    width: 500px;
+    height: auto;
+    background-color: #EB9C26;
+    margin-left: 200px;
+}
+section#css{
+    width: 500px;
+    height: auto;
+    background-color: #70B6EB;
+    margin-left: 200px;
+}
+h1{
+    color: #EB1AD7;
+}
+h1#principal{
+    color: #49A4EB;
+    text-align: center;
+}
+h2{
+    color: #EB1AD7;
+}
+p{
+    color:black;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fontes externas</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+       @font-face {
+           font-family: 'Newton' ;
+           src: url("fonts/Newton Howard Font.ttf")
+           format('opentype');
+           
+       }
+       /*tipod de format()
+       -opentype(otf)
+       -truetype(ttf)
+       -embedded-opentype
+       -truetype-aat(apple advanced Typography)
+       -svg*/
+        h1#google01{
+            font-family: 'Pacifico', cursive;
+        }
+        p#google02{
+            font-family: 'Nanum Gothic', sans-serif;
+        }
+        h2#externo{
+
+font-family: Newton;
+        }
+        p#externo01{
+           font-size: medium;
+           font-family: Newton;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="google01">usando google fonts</h1>
+    <p id="google02">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio doloremque cumque eveniet nihil nostrum cupiditate illo accusamus quasi rerum. Alias aut perspiciatis repellendus fugit commodi beatae doloribus, doloremque facilis eos?</p>
+    <h2 id="externo">fontes fora do google fonts, fontes externas baixadas
+    <p id="externo01">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, harum? Quos quidem corrupti omnis ad labore consequuntur minus numquam distinctio aut quae ratione, blanditiis obcaecati, earum modi eveniet amet deserunt!</p>
+      
+    </h2>
+
+
+
+
+     <p>clique <a href="https://fonts.google.com/" target="_blank">aqui</a> para ir ao google fonts</p>
+</body>
+</html>

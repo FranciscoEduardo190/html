@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>
+       h2{
+           margin-left: 100px;
+       }
+       video{
+           margin-left: 100px;
+       }
+       iframe{
+           margin-left: 100px;
+       }
+   </style>
+    <title>imagens dinamicas</title>
+</head>
+<body>
+    <h1>imagens dinamicas</h1>
+    <p>abrir essse site em varios dispositivos diferentes, ou simplismente diminua o tamanho do seu navegador</p>
+    <picture>
+    <source media="(max-width: 750px)" srcset="imagens/pequena.png">
+     <source media="(max-width:1000px )" srcset="imagens/media.png">      
+     <img src="imagens/grande.png" alt="imagem grande">
+    </picture>
+    <h2>reproduzindo audios em html 5</h2>
+    <audio src="aula 03 audios/media/xaropinho-ratinho-rapaz.mp3" autoplay controls></audio>
+<p>versão limitada a cima <br> versão boa em baixo</p>
+<audio controls autoplay>
+    <source src="aula 03 audios/media/xaropinho-ratinho-rapaz.mp3" type="audio/mp3">
+</audio>
+<p>caso o audio não apareça, seu navegador não está disponivel no seu navegador <br>
+<a href="aula 03 audios/media/xaropinho-ratinho-rapaz.mp3" >clique aqui</a></p>
+<div>
+<h2>hospedagem de video própria</h2>
+<video controls width="500" poster="imagens/media.png">
+    <source src="media/MeuCopia.mp4" type="video/mp4">
+    <source src="media/Meucopia Preview.webm" type="video/webm">
+    <source src="media/Meucopia Preview.mkv" type="video/mhv">
+    <p>seu navegador é merdakkkkk</p>
+</video>
+</div>
+<h2>incorporação de videos externos</h2>
+<iframe width="500" height="315" src="https://www.youtube.com/embed/DjOSM72cYac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>
